@@ -20,7 +20,7 @@ const App = () => {
         style={{ padding: '10px', fontSize: '16px' }}
       />
       <p style={{ fontSize: '20px', marginTop: '20px' }}>
-        {name ? `Hello, ${name}!` : 'Please enter your name'}
+        {name ? `Hello ${name}!` : 'Please enter your name'}
       </p>
     </div>
   )
